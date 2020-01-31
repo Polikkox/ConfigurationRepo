@@ -7,11 +7,11 @@ spring:
       ddl-auto: update
     properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
-  application:
-    name: register-service
-  cloud:
-    config:
-      uri: http://localhost:1111
+ # application:
+  #  name: register-service
+ # cloud:
+  #  config:
+   #   uri: http://localhost:1111
 
 
 eureka:
