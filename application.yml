@@ -1,9 +1,5 @@
 spring:
   profiles: dev
-   include=@spring:
-            profile:
-              from:
-                maven@:
   datasource:
     username: postgres
     password: 1234
