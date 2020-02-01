@@ -1,4 +1,5 @@
 spring:
+  profiles: dev
   datasource:
     username: postgres
     password: 1234
